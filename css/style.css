@@ -1,0 +1,413 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#phone {
+    width: 100%;
+}
+
+#logo {
+    max-width: none;
+}
+
+#navBtn {
+  background-color: #BF1F2C; /* red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#call-us-txt {
+    color: #BF1F2C;
+    font-size: 28px;
+    
+    
+}
+
+#phone-txt {
+    color: #fff;
+    font-size: 36px;
+}
+
+.container {
+    margin: auto;
+}
+
+/*Common Classes */
+
+.primary-text {
+    color: #ff0000;
+    
+}
+
+.primary-background {
+    background: #097491;
+}
+
+/*HEADER*/
+
+#main-header {
+    border-bottom: 1px solid #097491; 
+    background-color: #000;
+}
+
+/* NAV BAR */
+
+#navbar {
+    text-transform: uppercase;
+
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li.current a, #navbar a:hover {
+    color: #56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom: 3px;
+}
+
+/*Showcase*/
+
+#showcase {
+    background: url('../images/hangLights.jpg') no-repeat center center;
+    border-bottom: 1px solid #097491;
+    margin-bottom: 30px;
+
+}
+
+#showcase .row {
+    height: 500px;
+}
+
+#showcase h1 {
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+   
+    
+
+}
+
+#showcase .showcase-content {
+    background: #333;
+    color: #fff;
+    border-radius: 50px;
+    padding: 60px;
+    opacity: 0.7;
+}
+
+#main_text {
+    margin: 20px 0 0 0;
+}
+
+/*FEATURES*/
+
+#features h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#features p {
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa, #features .fas {
+    font-size: 60px;
+    color: #732002;
+}
+
+#features .fa:hover, #features .fas:hover {
+    color: #260401 ;
+    transition: 1s ease-out;
+}
+
+/* INFO */
+
+#info {
+    background: #333 url('../images/info-bg.jpg') no-repeat;
+    color: #fff;
+}
+
+#info h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+
+}
+
+#info ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+#info li {
+    line-height: 2em;
+    font-size: 20px;
+}
+/*COMPANY&*/
+#company {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+
+}
+
+#company h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+
+#company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="text"]{
+    padding: 7px;
+
+}
+
+#company button{
+    background: #BF1F2C;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+}
+/* MAIN FOOTER*/
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+    
+    
+}
+
+/*PAGE */
+
+#page {
+    margin-bottom: 40px;
+}
+
+/*BANNER*/
+
+#banner {
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase;
+    position: relative;
+    top: -30px;
+}
+
+#banner .row {
+    height: 60px;
+    
+}
+
+/*SERVICES*/
+
+.services ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.services ul li :nth-child(odd){
+    background: #333;
+    color: white;
+}
+
+.services ul li :nth-child(even){
+    background:#56a79a;
+    color: white;
+}
+
+/*CONTACT*/
+
+.contact form{
+    background: #BF1F2C;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.contact form input [type="text"] {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea {
+    width: 50%;
+    height: 100px;
+}
+
+.contact form button {
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color: #fff;
+}
+
+.contact form label {
+    text-transform: uppercaser;
+}
+
+/*Contact Form*/
+
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.brand {
+    text-align: center;
+}
+
+.brand span {
+    color: #fff;
+}
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+.wrapper > * {
+    padding: 1em;
+}
+
+.company-info {
+    background: #BF1F2C;
+    text-align: center;
+    font-weight: bold; 
+    color: #fff;
+}
+
+.company-info h2 {
+    padding-top: 10px;
+}
+
+.company-info h3, .company-info ul {
+    text-align: center;
+    margin: 0 0 1 rem 0;
+}
+
+.contact {
+    background: #333;
+    
+}
+
+/*Form Style*/
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  
+}
+
+.contact form label {
+    display: block;
+    color: #000;
+}
+
+.contact form p {
+    margin: 0;
+    
+}
+
+.contact form .full{
+    grid-column: 1/3;
+   
+}
+
+.contact form button, .contact form input, .contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid black;
+} 
+
+.contact form button {
+    background: #F2E6CE;
+    color: #000;
+    border: 0;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+.contact form button:hover, .contact form button:focus {
+    background: #0F5672;
+    color: #fff;
+    outline: 0;
+    transition: background-color 1s ease-out;
+    
+}
+
+.contact h3 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    color: white;
+    margin-bottom: 10px;
+    display: none;
+}
+
+
+/*MEDIA QUERY*/
+
+@media(max-width: 800px) {
+    #showcase h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+}
