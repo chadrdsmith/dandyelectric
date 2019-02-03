@@ -397,6 +397,9 @@ ul {
     display: none;
 }
 
+.hidden {
+    display: none;
+}
 
 /*MEDIA QUERY*/
 
