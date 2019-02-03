@@ -1,4 +1,3 @@
- 
 let btn = document.getElementById('navBtn').addEventListener('click', goToForm);
 
 function goToForm () {
