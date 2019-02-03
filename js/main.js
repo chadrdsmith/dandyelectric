@@ -1,5 +1,5 @@
   // Initialize Firebase
-  var config = {
+  <!-- var config = {
     apiKey: "AIzaSyC4YKmo3LCoJ7Xfwqg74Q9_5gD0wVstAH0",
     authDomain: "contactform-82abf.firebaseapp.com",
     databaseURL: "https://contactform-82abf.firebaseio.com",
@@ -58,7 +58,7 @@ function saveMessage (name, email, phone, message) {
         messsage: message
     });
 }
-
+-->
 let btn = document.getElementById('navBtn').addEventListener('click', goToForm);
 
 function goToForm () {
