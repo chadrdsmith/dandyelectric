@@ -32,8 +32,11 @@ body {
 #call-us-txt {
     color: #BF1F2C;
     font-size: 28px;
-    
-    
+}
+
+#location-text {
+    color: #FFF;
+    font-size: 30px;
 }
 
 #phone-txt {
@@ -49,7 +52,11 @@ body {
 
 .primary-text {
     color: #ff0000;
-    
+}
+
+.primary-text-phone {
+    color: #ff0000;
+    letter-spacing: 2px;
 }
 
 .primary-background {
@@ -97,7 +104,7 @@ body {
 }
 
 #showcase .row {
-    height: 500px;
+    height: 350px;
 }
 
 #showcase h1 {
@@ -105,21 +112,22 @@ body {
     margin: 0;
     padding-bottom: 20px;
     font-variant: small-caps;
-   
-    
-
 }
 
 #showcase .showcase-content {
     background: #333;
     color: #fff;
     border-radius: 50px;
-    padding: 60px;
+    padding: 20px;
     opacity: 0.7;
 }
 
 #main_text {
     margin: 20px 0 0 0;
+    line-height: 1em;
+}
+#main_sub_text {
+    line-height: 1.5em;
 }
 
 /*FEATURES*/
@@ -322,12 +330,22 @@ ul {
 
 .company-info h2 {
     padding-top: 10px;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+
 }
 
 .company-info h3, .company-info ul {
     text-align: center;
     margin: 0 0 1 rem 0;
 }
+.company-info li {
+    font-size: 20px;
+    margin: 10px;
+    color: #F2E6CE;
+    font-style: italic;
+    letter-spacing: 1px;  
+} 
 
 .contact {
     background: #333;
@@ -335,6 +353,10 @@ ul {
 }
 
 /*Form Style*/
+.contact h3 {
+    font-size: 33px;
+    margin: 10px;
+}
 
 .contact form {
     display: grid;
