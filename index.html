@@ -153,13 +153,23 @@
 <footer id="main-footer">
   <div class="container">
     <div class="row center-xs center-sm center-md center-lg">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <p>Copyright &copy; 2019 | DandyElectric | Winnipeg, MB</p>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <p>Copyright &copy; 2019 <br><br> DandyElectric | Winnipeg, MB</p>
      </div>
+     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <p>CURRENT WINNIPEG WEATHER</p>
+        <div id ="weather">
+        <canvas id="icon1" width="60" height="60"></canvas>
+        <div id="weather2">
+        <div id="weather"><span id="weatherTemp"></span><span>&#8451</span></div>
+        <div id="weatherDesc"></div>
+        </div>
+        </div>
+    </div>
     </div>
   </div>
 </footer>
-<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+<script src="./skycons.js"></script>
 <script src="js/main.js"></script> 
 </body>
 </html>
